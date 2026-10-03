@@ -1,0 +1,17 @@
+lg/meow1     sounds/meow1.ogg
+lg/meow2     sounds/meow2.ogg
+$random lg/meow { lg/meow1 lg/meow2 }
+lg/hiss      sounds/hiss.ogg
+lg/yowl      sounds/yowl.ogg
+lg/siren     sounds/siren.ogg
+lg/horn      sounds/horn.ogg
+lg/cash      sounds/cash.ogg
+lg/glass     sounds/glass.ogg
+lg/fire      sounds/fireloop.ogg
+lg/carboom   sounds/carboom.ogg
+lg/phone     sounds/phone.ogg
+lg/pistol    sounds/pistol.ogg
+lg/passed    sounds/passed.ogg
+lg/vo1       sounds/vo_call1.ogg
+lg/vo2       sounds/vo_call2.ogg
+lg/vo3       sounds/vo_call3.ogg

@@ -1,0 +1,7 @@
+// The Los Gatos sky: a 2048x512 panorama drawn at Doom's 1024 sky width (360 degrees).
+Texture "LGSKY", 1024, 128
+{
+	XScale 2.0
+	YScale 2.0
+	Patch "LGSKYP", 0, 0
+}

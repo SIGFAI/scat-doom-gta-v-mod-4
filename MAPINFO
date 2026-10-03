@@ -1,0 +1,24 @@
+GameInfo
+{
+	AddEventHandlers = "LGHandler"
+}
+
+DoomEdNums
+{
+	20001 = LGPalm
+	20002 = ParkedCarSpot
+	20003 = CashBag
+	20004 = TrafficSpot
+	20007 = TouristCat
+	20008 = WhiskersBillboard
+	20010 = PoliceCruiser
+}
+
+map MAP01 "Los Gatos"
+{
+	levelnum = 1
+	next = "MAP02"
+	sky1 = "LGSKY", 0
+	par = 300
+	music = "LGRADIO"
+}
