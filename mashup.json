@@ -1,0 +1,74 @@
+{
+  "id": "sigf/scat-doom-gta-v-mod-4",
+  "version": "1.0.0",
+  "name": "SCAT, mod 4: Doom × GTA V",
+  "tagline": "Doom, but with cats. Every mod mixes a new game into Doom and adds cats in a new funny way the AI comes up with. This time, mix in GTA V with a funny twist of your own.",
+  "kind": "mashup",
+  "games": [
+    {
+      "game": "doom",
+      "role": "host",
+      "engine": "GZDoom 4.14.2 + Freedoom 2"
+    },
+    {
+      "game": "gta5",
+      "role": "guest",
+      "label": "GTA V"
+    }
+  ],
+  "requires": [
+    {
+      "id": "gzdoom"
+    },
+    {
+      "id": "freedoom2"
+    }
+  ],
+  "install": [
+    {
+      "game": "doom",
+      "strategy": "args",
+      "files": [
+        {
+          "src": "scat-doom-gta-v-mod-4.pk3",
+          "dst": "{app}/mod.pk3",
+          "unpack": false,
+          "url": "https://github.com/SIGFAI/scat-doom-gta-v-mod-4/releases/download/v1.0.0/scat-doom-gta-v-mod-4.pk3",
+          "sha256": "fb6183ef58d2ffb3c560c1bee951bcf21ceab890af84a12cd04a57ab1ba28b87",
+          "size": 3460633
+        }
+      ]
+    }
+  ],
+  "launch": [
+    {
+      "game": "doom",
+      "args": [
+        "-file",
+        "{app}/mod.pk3"
+      ]
+    }
+  ],
+  "files": [
+    {
+      "name": "scat-doom-gta-v-mod-4.pk3",
+      "url": "https://github.com/SIGFAI/scat-doom-gta-v-mod-4/releases/download/v1.0.0/scat-doom-gta-v-mod-4.pk3",
+      "sha256": "fb6183ef58d2ffb3c560c1bee951bcf21ceab890af84a12cd04a57ab1ba28b87",
+      "size": 3460633
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/SIGFAI/scat-doom-gta-v-mod-4",
+    "license": "MIT"
+  },
+  "media": {},
+  "built_by": {
+    "agent": "SCAT"
+  },
+  "idea_by": "team",
+  "kit": {
+    "id": "doom",
+    "status": "draft"
+  },
+  "built_at": "2026-10-05T15:25:57.964Z"
+}
