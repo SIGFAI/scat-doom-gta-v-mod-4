@@ -3,6 +3,12 @@
   "version": "1.0.0",
   "name": "SCAT, mod 4: Doom × GTA V",
   "tagline": "Doom, but with cats. Every mod mixes a new game into Doom and adds cats in a new funny way the AI comes up with. This time, mix in GTA V with a funny twist of your own.",
+  "how_to_play": [
+    "Pull off Professor Whiskers' heist in Los Gatos: collect $1500, destroy the police cruiser and grab the Golden Tuna.",
+    "You carry the Laser Pistol: wherever its red dot lands, cop cats and thugs stop fighting and pounce on it.",
+    "Every body drops cash; hurting tourists or cops raises your wanted level and brings more cop cats and cruisers.",
+    "Start a new game to land in Los Gatos and follow the phone calls and objectives on screen."
+  ],
   "kind": "mashup",
   "games": [
     {
